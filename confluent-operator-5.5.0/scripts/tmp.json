@@ -1,0 +1,38 @@
+{
+    "apiVersion": "v1",
+    "kind": "Namespace",
+    "metadata": {
+        "creationTimestamp": "2020-06-09T19:46:55Z",
+        "deletionTimestamp": "2020-06-09T20:50:33Z",
+        "name": "operator",
+        "resourceVersion": "168636",
+        "selfLink": "/api/v1/namespaces/operator",
+        "uid": "13979ee5-2365-4c11-bb0f-f5e121c66339"
+    },
+    "status": {
+        "conditions": [
+            {
+                "lastTransitionTime": "2020-06-09T20:50:39Z",
+                "message": "All resources successfully discovered",
+                "reason": "ResourcesDiscovered",
+                "status": "False",
+                "type": "NamespaceDeletionDiscoveryFailure"
+            },
+            {
+                "lastTransitionTime": "2020-06-09T20:50:39Z",
+                "message": "All legacy kube types successfully parsed",
+                "reason": "ParsedGroupVersions",
+                "status": "False",
+                "type": "NamespaceDeletionGroupVersionParsingFailure"
+            },
+            {
+                "lastTransitionTime": "2020-06-09T20:50:39Z",
+                "message": "All content successfully deleted",
+                "reason": "ContentDeleted",
+                "status": "False",
+                "type": "NamespaceDeletionContentFailure"
+            }
+        ],
+        "phase": "Terminating"
+    }
+}
