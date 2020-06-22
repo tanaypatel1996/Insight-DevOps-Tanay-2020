@@ -16,6 +16,11 @@ A key benefit for operations teams of running Apache Kafka on Kubernetes is infr
 
 ## Architecture
 
+I used Hashicorp terraform to provision my 10 node Amazon EKS cluster, using confluent operator helm charts I have deployed Kafka, zookeeper as stateful sets and exposed them via aws load balancer. Installed the confluent local to communicate with the Kafka brokers inside the EKS cluster.
+
+After that I have produced json stream on the Kafka brokers (which are running on the cloud under the EKS cluster as pods) by command confluent local produce and then set the consumer as the kafka-s3 connect so the sink for my data was amazon s3 and the json data got stored there. Datadog agents were deployed as daemon set to monitor the infrastructure.
+
+
 ![architecture](https://github.com/tanaypatel1996/Insight-DevOps-Tanay-2020/blob/master/images/Tanay%20insight%20latest%20latest.png)
 
 
