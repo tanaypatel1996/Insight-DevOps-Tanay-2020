@@ -14,4 +14,4 @@ A key benefit for operations teams of running Apache Kafka on Kubernetes is infr
 
 ## Architecture
 
-![Image of Yaktocat](images/Tanay insight latest latest.png)
+![architecture](https://github.com/tanaypatel1996/Insight-DevOps-Tanay-2020/blob/master/images/Tanay%20insight%20latest%20latest.png)
