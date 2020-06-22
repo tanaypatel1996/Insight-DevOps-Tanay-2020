@@ -18,12 +18,20 @@ A key benefit for operations teams of running Apache Kafka on Kubernetes is infr
 
 ![architecture](https://github.com/tanaypatel1996/Insight-DevOps-Tanay-2020/blob/master/images/Tanay%20insight%20latest%20latest.png)
 
-## Engineering Challenge
-
-![challenge](https://github.com/tanaypatel1996/Insight-DevOps-Tanay-2020/blob/master/images/challenge.png)
-
-
 
 ## Technologies
 
 ![tech_stack](https://github.com/tanaypatel1996/Insight-DevOps-Tanay-2020/blob/master/images/Screen%20Shot%202020-06-22%20at%2012.24.49%20PM.png)
+
+
+## Engineering Challenge
+
+First challenge was understanding the Kubernetes architecture and its definitions which include daemon sets, deployment, stateful set, replica set, ingress controller.
+
+After that, another challenge was dealing with Kafka which is another beast figuring out its networking, advertising so that the brokers could communicat well internally as well as externally and publishing a topic to the producer and sending messages on that topic.
+
+The third challenge was connecting Kafka with s3, creating a topic, publishing real-time json stream on that topic and consuming it on the Kafka connector with s3.
+
+![challenge](https://github.com/tanaypatel1996/Insight-DevOps-Tanay-2020/blob/master/images/challenge.png)
+
+
