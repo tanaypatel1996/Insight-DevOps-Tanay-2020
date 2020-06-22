@@ -35,3 +35,10 @@ The third challenge was connecting Kafka with s3, creating a topic, publishing r
 ![challenge](https://github.com/tanaypatel1996/Insight-DevOps-Tanay-2020/blob/master/images/challenge.png)
 
 
+## Infrastrcture Monitoring using Datadog
+
+![datadog_dashboard](https://github.com/tanaypatel1996/Insight-DevOps-Tanay-2020/blob/master/images/datadog1.png)
+
+
+
+
