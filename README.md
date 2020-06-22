@@ -4,6 +4,8 @@
 
 My project explores the challenge of containerizing Kafka on Kubernetes.  To help achieve this challenge, I have used Terraform to provision the infrastructure, then used the confluent operator to deploy kafka on an EKS Cluster, further I have created a small data pipeline producing json interent stream data on Kafka brokers and consuming it on the kafka-s3 connector. My sink of the pipeline is an amazon s3 bucket which I have created.
 
+![project](https://github.com/tanaypatel1996/Insight-DevOps-Tanay-2020/blob/master/images/Screen%20Shot%202020-06-22%20at%2012.25.13%20PM.png)
+
 ## Use Case
 
 Running Kafka on Kubernetes allows organizations to simplify operations such as upgrades, scaling, restarts, and monitoring which are more-or-less built into the Kubernetes platform.First, if you are running most of your other applications and microservices on Kubernetes, it becomes the organizational path of least resistance. 
