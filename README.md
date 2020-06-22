@@ -1,5 +1,7 @@
 # Insight-DevOps-Tanay-2020
 
+# Orchestration of Kafka on Kubernetes
+
 My project explores the challenge of containerizing Kafka on Kubernetes.  To help achieve this challenge, I have used Terraform to provision the infrastructure, then used the confluent operator to deploy kafka on an EKS Cluster, further I have created a small data pipeline producing json interent stream data on Kafka brokers and consuming it on the kafka-s3 connector. My sink of the pipeline is an amazon s3 bucket which I have created.
 
 ## Use Case
